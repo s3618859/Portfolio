@@ -1,0 +1,188 @@
+html{
+	background-color: #091449;
+	position:absolute;
+	width:100vw;
+	height:100vh;
+	overflow: hidden;
+}
+
+.myHeader{
+	color:#B83422;
+	font-family: 'Ultra', serif;
+	font-size: 100px;
+	top: 23px;
+	left: 370px;
+	text-shadow: 1px 1px #000000;
+	position:absolute;
+	z-index: 0;
+
+}
+
+.button1, .button2, .button3{
+	font-family: 'Oswald', sans-serif;
+	font-size: 24px;
+	font-weight:bold;
+	color: #091449;
+	background-color: #B83422;
+	height: 46px;
+	width: 150px;
+	border: none;
+	transition: all .2s ease-in-out;
+}
+
+.button1{
+	position: absolute;
+	top: 250px;
+	left: 370px;
+
+}
+
+.button2{
+	position: absolute;
+	top: 250px;
+	left: 680px;
+}
+
+.button3{
+	position: absolute;
+	top: 250px;
+	left: 980px;
+}
+
+.button1:hover, .button2:hover, .button3:hover{
+	transform:scale(1.5);
+}
+
+/*Woman*/
+.Woman {
+	max-width:20%;
+	height:auto;
+	position: absolute;
+	top: 400px;
+	left: 600px;
+	z-index: 2;
+}
+
+.container {
+	transform: translate(30px,30px);
+}
+
+/*Upper arm*/
+.upperArm {
+	max-width:10%;
+	height:auto;
+	top: 400px;
+	left: 600px;
+	position: absolute;
+	z-index: 1;
+}
+
+/*Down arm*/
+.downArm {
+	max-width:10%;
+	height:auto;
+	top: 400px;
+	left: 500px;
+	position: absolute;
+	z-index: 1;
+}
+
+/*Hand*/
+.Hand {
+	max-width:5%;
+	height:auto;
+	top: 411px;
+	left: 450px;
+	position: absolute;
+	z-index: 1;
+}
+
+/*First hair from the top*/
+.Hair01 {
+	max-width:60%;
+	height:auto;
+	position:absolute;
+	top: -200px;
+	left: 400px;
+	z-index: -1;
+}
+
+/*Round-ish hair from the top left corner*/
+.Hair02 {
+	max-width:40%;
+	height:auto;
+	position:absolute;
+	top:-200px;
+	left:-200px;
+	z-index: -1;
+}
+
+/*Hair at the far left corner*/
+.Hair03 {
+	max-width:40%;
+	height:auto;
+	position:absolute;
+	top:-50px;
+	left:-100px;
+	z-index: -2;
+}
+
+/*Second hair from the far left corner*/
+.Hair04 {
+	max-width:30%;
+	height:auto;
+	position:absolute;
+	top:-50px;
+	left:-50px;
+	z-index: -1;
+}
+
+/*Left hair the woman is sitting on*/
+.Hair06 {
+	max-width:40%;
+	height:auto;
+	position:absolute;
+	top:700px;
+	left:300px;
+	z-index: -3;
+}
+
+/*Right hair the woman is sitting on*/
+.Hair07 {
+	max-width:40%;
+	height:auto;
+	position:absolute;
+	top:700px;
+	left:700px;
+	z-index: -4;
+}
+
+/*Big hair at the bottom right*/
+.Hair08 {
+	max-width:40%;
+	height:auto;
+	position:absolute;
+	top:50px;
+	left:1000px;
+	z-index: -2;
+}
+
+/*Smaller hair on the right*/
+.Hair09 {
+	max-width:40%;
+	height:auto;
+	position:absolute;
+	top:-50px;
+	left:1200px;
+	z-index: -2;
+}
+
+/*Biggest hair on the right*/
+.Hair10 {
+	max-width:20%;
+	height:auto;
+	position:absolute;
+	top:-100px;
+	left:1290px;
+	z-index: -3;
+}
